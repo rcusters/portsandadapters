@@ -1,0 +1,6 @@
+rootProject.name = 'ports-and-adapters'
+
+include 'core:domain'
+include 'core:application'
+include 'adapter:driving'
+include 'adapter:driven'

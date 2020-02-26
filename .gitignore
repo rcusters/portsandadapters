@@ -1,0 +1,17 @@
+.gradle
+.idea/*
+*.iml
+/.idea/runConfigurations
+/.idea/checkstyle-idea.xml
+build
+*.iws
+application.pid
+*.log*
+/classes/
+commons-*/gradle/
+commons-*/gradlew*
+out/
+/.gradletasknamecache
+**/backwardscompatibility/actual-*.txt
+axoniq.license
+/.idea/$PRODUCT_WORKSPACE_FILE$
