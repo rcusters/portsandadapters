@@ -1,8 +1,8 @@
-package be.custers.portsandadapters.infrastructure.driven.book;
+package be.custers.portsandadapters.infrastructure.driven.jpa;
 
+import be.custers.portsandadapters.core.application.drivenport.BookRepository;
 import be.custers.portsandadapters.domain.book.Book;
 import be.custers.portsandadapters.domain.book.BookId;
-import be.custers.portsandadapters.domain.book.BookRepository;
 
 import java.util.Optional;
 

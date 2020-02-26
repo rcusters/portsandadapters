@@ -1,4 +1,4 @@
-package be.custers.portsandadapters.application;
+package be.custers.portsandadapters.core.application.drivingport;
 
 @FunctionalInterface
 public interface CommandBus {

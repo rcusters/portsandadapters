@@ -1,7 +1,7 @@
 package be.custers.portsandadapters.infrastructure.driving.order;
 
-import be.custers.portsandadapters.application.CommandBus;
-import be.custers.portsandadapters.application.OrderBookCommand;
+import be.custers.portsandadapters.core.application.drivingport.CommandBus;
+import be.custers.portsandadapters.core.application.drivingport.OrderBookCommand;
 import be.custers.portsandadapters.domain.book.BookId;
 
 public class OrderBookController {

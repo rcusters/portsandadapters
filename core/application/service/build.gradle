@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+    compile project(':core:domain')
     compile project(':core:application:drivingport')
+    compile project(':core:application:drivenport')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

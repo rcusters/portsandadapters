@@ -1,6 +1,7 @@
 package be.custers.portsandadapters.application;
 
-import be.custers.portsandadapters.domain.port.Command;
+
+import be.custers.portsandadapters.core.application.drivingport.Command;
 
 public class CommandHandlerRegistry {
 

@@ -1,7 +1,7 @@
-package be.custers.portsandadapters.infrastructure.driven.order;
+package be.custers.portsandadapters.infrastructure.driven.jpa;
 
+import be.custers.portsandadapters.core.application.drivenport.OrderRepository;
 import be.custers.portsandadapters.domain.order.Order;
-import be.custers.portsandadapters.domain.order.OrderRepository;
 
 public class JPAOrderRepository implements OrderRepository {
 

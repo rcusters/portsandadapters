@@ -1,7 +1,6 @@
-package be.custers.portsandadapters.application;
+package be.custers.portsandadapters.core.application.drivingport;
 
 import be.custers.portsandadapters.domain.book.BookId;
-import be.custers.portsandadapters.domain.port.Command;
 
 public class OrderBookCommand implements Command {
 

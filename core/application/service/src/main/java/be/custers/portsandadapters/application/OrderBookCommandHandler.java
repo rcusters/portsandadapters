@@ -1,8 +1,9 @@
 package be.custers.portsandadapters.application;
 
-import be.custers.portsandadapters.domain.book.BookRepository;
+import be.custers.portsandadapters.core.application.drivenport.BookRepository;
+import be.custers.portsandadapters.core.application.drivenport.OrderRepository;
+import be.custers.portsandadapters.core.application.drivingport.OrderBookCommand;
 import be.custers.portsandadapters.domain.order.Order;
-import be.custers.portsandadapters.domain.order.OrderRepository;
 
 public class OrderBookCommandHandler implements CommandHandler<OrderBookCommand> {
 
